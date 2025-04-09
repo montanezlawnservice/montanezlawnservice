@@ -135,6 +135,25 @@ main {
     .contact a {
         font-size: 1rem;
     }
+    
+    /* Adjust flex proportions for medium screens */
+    main {
+        min-height: 85vh;
+    }
+    
+    .logo-container {
+        flex: 0.7;
+        padding-top: 3vh;
+    }
+    
+    .description {
+        flex: 1.2;
+    }
+    
+    .contact {
+        flex: 0.6;
+        padding-bottom: 4vh;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -145,5 +164,52 @@ main {
     .description {
         font-size: 0.9rem;
         padding: 0 15px;
+    }
+    
+    /* Fix email visibility on small screens */
+    main {
+        min-height: auto;
+        height: 100vh;
+        justify-content: space-between;
+    }
+    
+    .logo-container {
+        flex: 0.5;
+        padding-top: 5vh;
+    }
+    
+    .description {
+        flex: 1;
+    }
+    
+    .contact {
+        flex: 0.5;
+        padding-bottom: 8vh;
+        align-items: center; /* Move email up from bottom */
+    }
+}
+
+/* Extra small screens */
+@media screen and (max-height: 600px) {
+    main {
+        min-height: auto;
+        height: 100vh;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    
+    .logo-container {
+        flex: auto;
+        padding-top: 0;
+    }
+    
+    .description {
+        flex: auto;
+        margin: 15px 0;
+    }
+    
+    .contact {
+        flex: auto;
+        padding-bottom: 0;
     }
 } 
