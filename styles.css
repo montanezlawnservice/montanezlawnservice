@@ -107,38 +107,7 @@ main {
     opacity: 0.8;
 }
 
-/* Fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-/* Gradient fade animation */
-@keyframes gradientFade {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    .logo {
-        max-width: 250px;
-    }
-    
-    .description {
-        font-size: 1rem;
-        padding: 0 20px;
-    }
     
     .contact a {
         font-size: 1rem;
