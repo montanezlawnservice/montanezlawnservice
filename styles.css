@@ -35,7 +35,7 @@ body::before {
     max-width: 1200px;
     padding: 20px;
     opacity: 0;
-    animation: fadeIn 1.5s ease-in forwards;
+    animation: fadeIn 0s ease-in forwards;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ main {
     max-width: 800px;
     width: 100%;
     line-height: 1.6;
-    font-size: 1.2rem;
+    font-size: 1rem;
     flex: 1.4;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ main {
 .contact a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: opacity 0.3s ease;
 }
 
