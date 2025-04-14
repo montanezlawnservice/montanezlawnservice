@@ -35,7 +35,7 @@ body::before {
     max-width: 1200px;
     padding: 20px;
     opacity: 0;
-    animation: fadeIn 0s ease-in forwards;
+  
     min-height: 100vh;
     display: flex;
     align-items: center;
